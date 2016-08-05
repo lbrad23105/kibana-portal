@@ -6,17 +6,25 @@
     <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.2/css/bootstrap.min.css"> <!-- load bootstrap css -->
     <link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css"> <!-- load fontawesome -->
     <style>
-        body        
-        { padding-top:125px;}
+    body        { padding-top:100px;}
         #logo
         {
-            width : 60%;
+            width : 20%;
             position: relative;
-            padding-bottom: 50px;
-            left: 15%
-            /*padding-left: 50px;*/
+            padding-bottom: 5px;
+            left: 40%
+            /*padding-left: 45px;*/
             
-}
+        }
+         #welcome-msg
+        {
+            padding-bottom:5px;
+        }
+        #login-msg
+        {
+            padding-bottom:10px;
+            color:#0979a1;
+        }
     </style>
 </head>
 <body>
@@ -24,7 +32,10 @@
 
 <div class="col-sm-6 col-sm-offset-3">
 
-    <img src = "elklogo.png" id = "logo"/>
+    <img src = "elogo.png" id = "logo"/>
+    <h1 align = "center" id = "welcome-msg">Welcome to Kibana</h1>
+    <h4 align = "center" id = "login-msg">Signup with your credentials</h4>
+
 
     <!-- show any messages that come back with authentication -->
     <% if (message.length > 0) { %>
