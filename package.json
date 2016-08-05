@@ -1,0 +1,33 @@
+{
+  "name": "kibana-portal",
+  "version": "1.0.0",
+  "description": "Login for Kibana using MongoDB.",
+  "main": "server.js",
+  "repository": "https://github.com/lbrad23105/kibana-portal",
+  "dependencies": {
+    "express" : "~4.0.0",           
+    "ejs" : "~0.8.5",               
+    "mongoose" : "~3.8.1",          
+    "passport" : "~0.1.17",         
+    "passport-local" : "~0.1.6",
+    "connect-flash" : "~0.1.1",     
+    "bcrypt-nodejs" : "latest",
+
+    "morgan": "~1.0.0",
+    "body-parser": "~1.0.0",
+    "cookie-parser": "~1.0.0",
+    "method-override": "~1.0.0",
+    "express-session": "~1.0.0"         
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "keywords": [
+    "kibana",
+    "elk",
+    "elasticsearch",
+    "logstash"
+  ],
+  "author": "Luke Brady",
+  "license": "GPL"
+}
